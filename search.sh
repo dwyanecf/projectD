@@ -1,0 +1,1 @@
+/opt/oracle/app/csoracle/product/12.1.0/dbhome_1/bin/sqlplus

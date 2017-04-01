@@ -1,0 +1,172 @@
+
+SQL*Loader: Release 12.1.0.1.0 - Production on Wed Oct 28 22:37:18 2015
+
+Copyright (c) 1982, 2013, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   section.ctl
+Data File:      section.csv
+  Bad File:     section.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SECTION, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SECTION_IDENTIFIER                  FIRST     *   ,  O(") CHARACTER            
+COURSE_NUMBER                        NEXT     *   ,  O(") CHARACTER            
+SEMESTER                             NEXT     *   ,  O(") CHARACTER            
+YEAR                                 NEXT     *   ,  O(") CHARACTER            
+INSTRUCTOR                           NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 2: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 3: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 4: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 5: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 6: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 7: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 8: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 9: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 10: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 11: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 12: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 13: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 14: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 15: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 16: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 17: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 18: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 19: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 20: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 21: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 22: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 23: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 24: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 25: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 26: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 27: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 28: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 29: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 30: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 31: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 32: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 33: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 34: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 35: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 36: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 37: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 38: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 39: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+Record 40: Rejected - Error on table SECTION.
+ORA-00001: unique constraint (FXC151230.SYS_C0046411) violated
+
+
+Table SECTION:
+  0 Rows successfully loaded.
+  40 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  82560 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            40
+Total logical records rejected:        40
+Total logical records discarded:        0
+
+Run began on Wed Oct 28 22:37:18 2015
+Run ended on Wed Oct 28 22:37:18 2015
+
+Elapsed time was:     00:00:00.11
+CPU time was:         00:00:00.02

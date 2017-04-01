@@ -1,0 +1,50 @@
+
+SQL*Loader: Release 12.1.0.1.0 - Production on Wed Oct 28 22:37:57 2015
+
+Copyright (c) 1982, 2013, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   grade_report.ctl
+Data File:      grade_report.csv
+  Bad File:     grade_report.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table GRADE_REPORT, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+STUDENT_NUMBER                      FIRST     *   ,  O(") CHARACTER            
+SECTION_IDENTIFIER                   NEXT     *   ,  O(") CHARACTER            
+GRADE                                NEXT     *   ,  O(") CHARACTER            
+
+
+Table GRADE_REPORT:
+  20 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  49536 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            20
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Oct 28 22:37:57 2015
+Run ended on Wed Oct 28 22:37:57 2015
+
+Elapsed time was:     00:00:00.12
+CPU time was:         00:00:00.00
